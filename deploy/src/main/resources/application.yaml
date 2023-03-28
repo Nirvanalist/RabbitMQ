@@ -1,3 +1,7 @@
+server:
+  address: localhost
+  port: 8080
+
 spring:
   rabbitmq:
     host: localhost
@@ -7,4 +11,4 @@ spring:
 
 logging:
   level:
-    web: debug
+    web: error
